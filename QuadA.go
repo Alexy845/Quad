@@ -3,7 +3,7 @@ package piscine
 import "github.com/01-edu/z01"
 
 func QuadA(x, y int) {
-	if x > 1 {
+	if x > 0 {
 		z01.PrintRune('o')
 	}
 	for a := 1; a < x-1; a++ {
